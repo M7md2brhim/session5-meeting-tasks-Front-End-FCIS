@@ -1,0 +1,66 @@
+/* fonts */
+@font-face {
+  font-family: Kanit-bold;
+  src: url(../fonts/Kanit/Kanit-Bold.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Kanit-Medium;
+  src: url(../fonts/Kanit/Kanit-Medium.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Kanit-Light;
+  src: url(../fonts/Kanit/Kanit-Light.ttf);
+  font-weight: 500;
+}
+/* End fonts */
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: rgb(66, 164, 217);
+}
+
+.container div {
+  display: inline-block;
+  color: white;
+}
+
+.content {
+  width: 35%;
+  direction: rtl;
+  text-align: left;
+  padding: 0px 80px 30px 80px;
+}
+
+.content h1 {
+  font-family: Kanit-Medium;
+  font-size: 40px;
+  text-shadow: 10px;
+}
+
+.content p {
+  opacity: 0.5;
+  font-family: Kanit-Light;
+  direction: ltr;
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.content img {
+  margin-right: 20px;
+}
+
+.header {
+  width: 49%;
+}
+
+.header img {
+  width: 100%;
+}
